@@ -23,10 +23,10 @@ public class StudentDAO {
         return listStd;
     }
     
-    public void addNew(Student student) {
-
-		mapStudent.put(student.getId(), student);
-	}
+    public List<Student> ViewAll(List<Student> mapValue){
+        List<Student> listStd = new ArrayList<Student>();
+        return listStd;
+    }
 
     public void deleteStudent(int id) {
             mapStudent.remove(id);
