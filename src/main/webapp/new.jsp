@@ -20,10 +20,10 @@
     <body>
         <form action="AddNew">
             ID: <input type="text" name="id" value="${student.id}"required="required" /><br/>
-            Name: <input type="text" name="txtT" value="${student.name}" required="required"/><br/>
+            Name: <input type="text" name="name" value="${student.name}" required="required"/><br/>
             YearOfBirth: <input type="text" name="txtTa" value="${student.yearOfBirth}"required="required"/><br/>
-            Gender: <input type="text" name="txtG" value="${student.gender}" required="required"/><br/>
-            AdmissionDate: <input type="text" name="txtG" value="${student.admissionDate}" required="required"/><br/>
+            Gender: <input type="text" name="gender" value="${student.gender}" required="required"/><br/>
+            AdmissionDate: <input type="date" name="admissionDate" value="${student.admissionDate}" required="required"/><br/>
             <input type="submit"/>
         </form>
     </body>
